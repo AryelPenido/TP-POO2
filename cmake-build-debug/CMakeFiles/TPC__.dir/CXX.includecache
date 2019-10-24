@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../modelo/entidade/Aluno.hpp
+iostream
+-
+vector
+-
+
+/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleAluno.cpp
+ControleAluno.hpp
+/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleAluno.hpp
+iostream
+-
+vector
+-
+vector
+-
+
+/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleAluno.hpp
+iostream
+-
+../modelo/persistencia/DAOAluno.h
+/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/persistencia/DAOAluno.h
+
+/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/persistencia/DAOAluno.h
+iostream
+-
+vector
+-
+Aluno.hpp
+-
+

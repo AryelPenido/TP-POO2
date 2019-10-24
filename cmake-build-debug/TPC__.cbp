@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TPC__"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aryels/Área de Trabalho/UFV/POO/TPC++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aryels/Área de Trabalho/UFV/POO/TPC++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TPC__">
+				<Option output="/home/aryels/Área de Trabalho/UFV/POO/TPC++/cmake-build-debug/TPC__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aryels/Área de Trabalho/UFV/POO/TPC++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/entidade"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 TPC__"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TPC__/fast">
+				<Option output="/home/aryels/Área de Trabalho/UFV/POO/TPC++/cmake-build-debug/TPC__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aryels/Área de Trabalho/UFV/POO/TPC++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/entidade"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 TPC__/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aryels/Área de Trabalho/UFV/POO/TPC++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aryels/Área\ de\ Trabalho/UFV/POO/TPC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleAluno.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleAluno.hpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleProfessor.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleProfessor.h">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleTurma.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/controle/ControleTurma.h">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/entidade/Aluno.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/entidade/Aluno.hpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/entidade/Professor.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/entidade/Professor.h">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/entidade/Turma.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/entidade/Turma.h">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/persistencia/DAOAluno.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/persistencia/DAOAluno.h">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/persistencia/DAOProfessor.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/persistencia/DAOProfessor.h">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/persistencia/DAOTurma.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/modelo/persistencia/DAOTurma.h">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/view/main.cpp">
+			<Option target="TPC__"/>
+		</Unit>
+		<Unit filename="/home/aryels/Área de Trabalho/UFV/POO/TPC++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
