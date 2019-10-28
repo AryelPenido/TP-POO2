@@ -33,9 +33,11 @@ public:
     string setnomePai(string np);
     string setnomeMae(string nm);
     string setendereco(string ed);
-    void setNota(float nota);
 
     //~Aluno();
+    void setNotaAluno(vector<float> n);
+
+    int getNotasize();
 };
 
 #endif //TPC___ALUNO_H

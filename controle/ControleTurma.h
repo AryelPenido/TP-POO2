@@ -14,8 +14,8 @@ class ControleTurma {
 
 public:
     ControleTurma();
-    void insere(Professor professor1,vector<Aluno> listaAlunos,int codigo,string ano);
-    void Lancarnotas(int codigo);
+    void insere(Professor professor1,vector<Aluno*> listaAlunos,int codigo,string ano);
+    void Lancarnotas();
 };
 
 

@@ -18,19 +18,19 @@ private:
 
     vector<Professor> professor;
     //Professor professor;
-    std::vector <Aluno> alunos;
+    vector <Aluno*> alunos;
     int codigo;
     string ano;
 
 public:
-    Turma(Professor professor1,vector<Aluno> listaAlunos,int codigo,string ano);
+    Turma(Professor professor1,vector<Aluno*> listaAlunos,int codigo,string ano);
     Turma(const Turma &tt);
     Professor getProfessor();
-    vector <Aluno> getAlunos();
+    vector <Aluno*> getAlunos();
     int getCodigo();
     string getAno();
     void setProfessor(Professor professor2);
-    void setAlunos(vector<Aluno> Alunos);
+    void setAlunos(vector<Aluno*> Alunos);
     void setCodigo(int cdg);
     void setAno(string a);
     Turma getTurmat();

@@ -33,6 +33,10 @@ string Aluno::getEndereco() {
 vector<float> Aluno::getNota() {
     return nota;
 }
+
+int Aluno::getNotasize(){
+    return nota.size();
+}
 string Aluno::setNome(string n){
     nome = n;
 }
@@ -45,7 +49,16 @@ string Aluno::setnomeMae(string nm){
 string Aluno::setendereco(string ed){
     endereco = ed;
 }
+void Aluno::setNotaAluno(vector <float> n) {
+    cout<<"SETNOTAALUNO\n";
+    cout<<"Matricula na qual estou lançando nota: "<<matricula<<"\n";
+    //nota.push_back(n);
+    nota = n;
+    cout<<nota.size();
+   /* cout<<"notas lançadas: ";
+    for (int i =0; i < nota.size();i++){
+        cout<<nota[i]<<" ";
+    }*/
 
-void Aluno::setNota(float n) {
-    nota.push_back(n);
+
 }
