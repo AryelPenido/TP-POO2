@@ -17,10 +17,9 @@ private:
 
 public:
     DAOTurma();
-    void insereTurmaDAO(Professor professor1,vector<Aluno> listaAlunos,int codigo,string ano);
+    void insereTurmaDAO(Professor professor1,vector<Aluno*> listaAlunos,int codigo,string ano);
     vector<Turma> getListaTurma();
-
-
+    void lancaNotasDao(Turma *tt);
 };
 
 

@@ -20,6 +20,8 @@ public:
     ControleAluno();
     void inserecontrole(string n,string nomePai,string nomeMae,string dataNasc,string endereco);
     void ListaAlunos();
-    vector<Aluno>getListaAlunos(int tamanho);
+    vector<Aluno*>getListaAlunos();
+    void setNotasControleAluno();
+    void PercorreNotas(int mat);
 
 };

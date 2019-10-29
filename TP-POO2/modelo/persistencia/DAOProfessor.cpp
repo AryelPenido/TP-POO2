@@ -12,10 +12,10 @@ DAOProfessor::DAOProfessor() {
 
 void DAOProfessor::insere(string np, string endp, string ap, double salariop) {
     Professor *p = new Professor(np,endp,ap,salariop);
-    pp.push_back(*p);
+    pp.push_back(p);
 }
 
-vector<Professor> DAOProfessor::getLista() {
+vector<Professor*> DAOProfessor::getLista() {
     return pp;
 }
 

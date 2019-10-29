@@ -40,6 +40,7 @@ CMakeFiles/TPC__.dir/modelo/persistencia/DAOProfessor.cpp.obj: ../modelo/persist
 CMakeFiles/TPC__.dir/modelo/persistencia/DAOTurma.cpp.obj: ../modelo/entidade/Aluno.hpp
 CMakeFiles/TPC__.dir/modelo/persistencia/DAOTurma.cpp.obj: ../modelo/entidade/Professor.h
 CMakeFiles/TPC__.dir/modelo/persistencia/DAOTurma.cpp.obj: ../modelo/entidade/Turma.h
+CMakeFiles/TPC__.dir/modelo/persistencia/DAOTurma.cpp.obj: ../modelo/persistencia/DAOAluno.h
 CMakeFiles/TPC__.dir/modelo/persistencia/DAOTurma.cpp.obj: ../modelo/persistencia/DAOTurma.cpp
 CMakeFiles/TPC__.dir/modelo/persistencia/DAOTurma.cpp.obj: ../modelo/persistencia/DAOTurma.h
 

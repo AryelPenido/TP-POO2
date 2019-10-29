@@ -20,6 +20,7 @@ public:
     Professor getProfessor(string nome);
 
 
+    void alteraProf(string nome);
 };
 
 

@@ -7,11 +7,12 @@
 
 using namespace std;
 
-Turma::Turma(Professor prof,vector <Aluno> listaAlunos,int cdg,string a) {
+Turma::Turma(Professor prof,vector <Aluno*> listaAlunos,int cdg,string a) {
     professor.push_back(prof);
     alunos = listaAlunos;
     codigo = cdg;
     ano = a;
+
 
 }
 
@@ -27,7 +28,7 @@ Professor Turma::getProfessor() {
     Professor p = professor[0];
     return  p;
 }
-vector <Aluno> Turma::getAlunos() {
+vector <Aluno*> Turma::getAlunos() {
     return  alunos;
 }
 
@@ -38,7 +39,7 @@ string Turma::getAno() {
 int Turma::getCodigo() {
     return codigo;
 }
-void Turma::setAlunos(vector<Aluno> Alunos) {
+void Turma::setAlunos(vector<Aluno*> Alunos) {
     alunos = Alunos;
 }
 

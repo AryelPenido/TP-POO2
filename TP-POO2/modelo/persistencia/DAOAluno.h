@@ -12,15 +12,16 @@
 using namespace std;
 class DAOAluno {
 
- vector<Aluno> aa;
+ vector<Aluno*> aa;
 
 
 public:
     DAOAluno();
     void insere(string n,string nomePai,string nomeMae,string dataNasc,string endereco,int matricula);
-    vector<Aluno> getLista();
+    vector<Aluno*> getLista();
     int getsizeLista();
-
+    vector <float> getNotas(int matricula);
+    void setNotasDAO(int matricula,float nota);
 
 
 

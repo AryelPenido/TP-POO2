@@ -41,6 +41,7 @@ CMakeFiles/TPC__.dir/modelo/persistencia/DAOTurma.cpp.obj
  ../modelo/entidade/Aluno.hpp
  ../modelo/entidade/Professor.h
  ../modelo/entidade/Turma.h
+ C:/Users/hilli/CLionProjects/TP-POO2/modelo/persistencia/DAOAluno.h
  C:/Users/hilli/CLionProjects/TP-POO2/modelo/persistencia/DAOTurma.cpp
  C:/Users/hilli/CLionProjects/TP-POO2/modelo/persistencia/DAOTurma.h
 CMakeFiles/TPC__.dir/view/main.cpp.obj

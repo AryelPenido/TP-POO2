@@ -11,13 +11,13 @@
 //#include ""
 class DAOProfessor {
 
-    vector<Professor> pp;
+    vector<Professor*> pp;
 
 public:
     DAOProfessor();
     void insere(string nomeprof,string enderecoprof,string area, double salariohora);
 
-    vector<Professor> getLista();
+    vector<Professor*> getLista();
 };
 
 
